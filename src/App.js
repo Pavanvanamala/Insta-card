@@ -1,6 +1,7 @@
 import React from 'react';
-import Insta from './Insta'
-import Login from './Login';
+import Insta from './Components/Insta'
+// import Login from './Login';
+
 
 function App() {
   return (

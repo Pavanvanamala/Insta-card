@@ -1,0 +1,37 @@
+.profile {
+    /* display: flex; */
+    /* background-color: red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: width 2s height 4s;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.788);
+    
+}
+
+.profile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: width 2s height 4s;
+}
+
+/* .main-container{
+    display: flex;
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+} */
+
+.rootContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: -20px;
+    
+}
+.main-container{
+    height: 70%;
+}
+
+.head{
+    background-color: aquamarine;
+}
